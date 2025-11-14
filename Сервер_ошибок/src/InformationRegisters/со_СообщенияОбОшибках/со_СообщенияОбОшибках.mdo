@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ad09e33-61e9-4fcd-a26c-c605577a7594">
+  <producedTypes>
+    <selectionType typeId="38cb5b65-8f28-4590-98dc-dac367315de9" valueTypeId="85fb83ad-eac0-41d4-b77c-a024aed1715e"/>
+    <listType typeId="8b36dee9-003e-48aa-af12-8b0cfa1c452a" valueTypeId="3e0ee8ab-fb5e-444a-a646-662c6253dd1b"/>
+    <managerType typeId="b66cc31e-f98b-4a0f-87c2-68babce00bc9" valueTypeId="4e761f11-33bc-42a2-a451-a0c04e76fca2"/>
+    <recordSetType typeId="f23d79e0-0eb2-4ae4-99d1-ec070040b8a4" valueTypeId="25188639-e4ce-42c7-80aa-e4648de0288f"/>
+    <recordKeyType typeId="7adf5bc5-c273-481e-bc64-d0e9fc1f8cdb" valueTypeId="05ad1db1-4d5f-4b0c-9e7d-6bfc23b20f8f"/>
+    <recordType typeId="34484c69-e22b-4f6d-9676-1ea869913fbf" valueTypeId="a76c0f3f-dc2c-4d6f-9937-8c072d003741"/>
+    <recordManagerType typeId="78e5158a-7c25-480c-a501-982d7f7b548d" valueTypeId="42669342-7f59-4074-be29-b92e15e3beb1"/>
+  </producedTypes>
+  <name>со_СообщенияОбОшибках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не обработанные сообщения об ошибках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.со_СообщенияОбОшибках.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.со_СообщенияОбОшибках.Form.ФормаСписка</defaultListForm>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Собщение об ошибке</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Полученное собщение об ошибке</value>
+  </extendedRecordPresentation>
+  <resources uuid="f1d29487-4f41-4336-b94f-fa2c73c25f17">
+    <name>ДанныеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные ошибки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="62a96c5b-4322-42d2-a453-a9ffac853920">
+    <name>ДатаОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ошибки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d10e5c25-6316-4a0c-9cbc-dd58f9fdc36c">
+    <name>ИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="89da0a80-2989-4b82-b73a-ccf15d59f389">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7f13272-babd-42c5-998e-32a8bf626ce2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

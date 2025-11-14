@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93575837-78b2-4074-b91d-831afef5956e">
+  <name>со_Основное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервер ошибок</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.со_СообщенияОбОшибках</content>
+  <content>CommonCommand.со_РегламентнаяОперация</content>
+  <content>Document.РегистрацияОшибки</content>
+</mdclass:Subsystem>

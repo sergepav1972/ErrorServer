@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcaba845-5405-4b67-83b1-af25062369c6">
+  <name>со_РегистрацияОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>(СО) Регистрация ошибок</value>
+  </synonym>
+  <rootURL>main</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e6408e5e-4c06-4e78-942f-bae9df023a67">
+    <name>ПолучитьЗапросОбОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить запрос об ошибке</value>
+    </synonym>
+    <template>/getInfo</template>
+    <methods uuid="2eaa03d9-a787-4d1d-abe2-53386cdf8ac6">
+      <name>ПолучитьЗапросОбОшибке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить запрос об ошибке</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьЗапросОбОшибке</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f5df0b4a-7b2a-4079-a58b-773fead2c54d">
+    <name>ПолучитьИнформациюОбОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить информацию об ошибке</value>
+    </synonym>
+    <template>/pushReport</template>
+    <methods uuid="c3efa503-4d41-496b-bd3d-70916214fe43">
+      <name>ПолучитьИнформациюОбОшибке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить информацию об ошибке</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьИнформациюОбОшибке</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

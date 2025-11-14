@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ЖурналРегистрации.Command.ЖурналДоступаКДанным</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ДополнительныеОтчетыАдминистрирование</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ДополнительныеОбработкиАдминистрирование</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ЖурналРегистрации.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.РегламентныеИФоновыеЗадания.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.УниверсальныйОбменДаннымиXML.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>
