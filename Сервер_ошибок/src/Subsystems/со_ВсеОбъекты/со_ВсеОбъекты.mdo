@@ -10,4 +10,5 @@
   <content>HTTPService.со_РегистрацияОшибок</content>
   <content>Document.РегистрацияОшибки</content>
   <content>CommonCommand.со_РегламентнаяОперация</content>
+  <content>CommonModule.со_ОбщегоНазначенияСерверВызовСервера</content>
 </mdclass:Subsystem>
