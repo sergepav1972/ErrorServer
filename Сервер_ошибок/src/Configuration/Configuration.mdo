@@ -48,7 +48,6 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.со_ВсеОбъекты</subsystems>
   <subsystems>Subsystem.со_Основное</subsystems>
-  <subsystems>Subsystem.со_Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>

@@ -2,6 +2,5 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
     <subsystems>Subsystem.со_Основное</subsystems>
-    <subsystems>Subsystem.со_Администрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>
