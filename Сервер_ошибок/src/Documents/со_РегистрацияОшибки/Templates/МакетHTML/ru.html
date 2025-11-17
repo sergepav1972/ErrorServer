@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta charset="UTF-8"></meta><meta name="viewport" content="width=device-width, initial-scale=1.0"></meta><title>JSON Formatter</title><style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .json-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .json-key {
+            color: #881391;
+        }
+        .json-string {
+            color: #c41a16;
+        }
+        .json-number {
+            color: #1c00cf;
+        }
+        .json-boolean {
+            color: #0d22aa;
+        }
+        .json-null {
+            color: #808080;
+        }
+    </style></head><body>
+    
+<div class="json-container">
+        <pre id="json-output"></pre>
+    </div>
+
+    
+<script>
+        const jsonData = %1;
+
+        // Функция для раскрашивания JSON
+        function syntaxHighlight(json) {
+            if (typeof json !== 'string') {
+                json = JSON.stringify(json, null, 2);
+            }
+            
+            json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            
+            return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, 
+                function (match) {
+                    let cls = 'json-number';
+                    if (/^"/.test(match)) {
+                        if (/:$/.test(match)) {
+                            cls = 'json-key';
+                        } else {
+                            cls = 'json-string';
+                        }
+                    } else if (/true|false/.test(match)) {
+                        cls = 'json-boolean';
+                    } else if (/null/.test(match)) {
+                        cls = 'json-null';
+                    }
+                    return '<span class="' + cls + '">' + match + '</span>';
+                }
+            );
+        }
+
+        // Вывод раскрашенного JSON
+        document.getElementById('json-output').innerHTML = syntaxHighlight(jsonData);
+    </script></body></html>

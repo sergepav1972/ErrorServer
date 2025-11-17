@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>Шапка</name>
     <id>34</id>
@@ -540,6 +540,98 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>Картинка</name>
+        <id>47</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Картинка</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Картинка</value>
+        </toolTip>
+        <width>2</width>
+        <height>8</height>
+        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>false</verticalStretch>
+        <extendedTooltip>
+          <name>КартинкаРасширеннаяПодсказка</name>
+          <id>48</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>AlwaysHorizontal</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>Декорация1</name>
+        <id>49</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Декорация1РасширеннаяПодсказка</name>
+          <id>51</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Декорация1КонтекстноеМеню</name>
+          <id>50</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <width>35</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>13</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>false</horizontalStretch>
+        <verticalStretch>false</verticalStretch>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ОбщаяКартинка</picture>
+          </picture>
+          <pictureSize>Proportionally</pictureSize>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -549,7 +641,7 @@
         <key>ru</key>
         <value>Группа1</value>
       </title>
-      <width>31</width>
+      <width>35</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ЛевоРасширеннаяПодсказка</name>
@@ -591,7 +683,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ТекстОшибки</segments>
+          <segments>ТекстJSON</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТекстОшибкиРасширеннаяПодсказка</name>
@@ -618,21 +710,18 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>HTMLDocumentField</type>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
+        <extInfo xsi:type="form:HtmlFieldExtInfo">
+          <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
-          <wrap>true</wrap>
-          <multiLine>true</multiLine>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -679,6 +768,7 @@
       <key>ru</key>
       <value>Группа1</value>
     </title>
+    <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>ОсновнаяРасширеннаяПодсказка</name>
       <id>37</id>
@@ -699,6 +789,7 @@
       <group>AlwaysHorizontal</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -706,7 +797,6 @@
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
     <id>31</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -766,6 +856,14 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -792,6 +890,24 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ТекстJSON</name>
+    <title>
+      <key>ru</key>
+      <value>Текст JSON</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
