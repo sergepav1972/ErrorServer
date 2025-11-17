@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>InformationRegister.со_СообщенияОбОшибках</content>
   <content>HTTPService.со_РегистрацияОшибок</content>
-  <content>Document.РегистрацияОшибки</content>
+  <content>Document.со_РегистрацияОшибки</content>
   <content>CommonCommand.со_РегламентнаяОперация</content>
   <content>CommonModule.со_ОбщегоНазначенияСерверВызовСервера</content>
 </mdclass:Subsystem>

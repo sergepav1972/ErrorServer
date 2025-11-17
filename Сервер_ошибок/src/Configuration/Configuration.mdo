@@ -619,6 +619,7 @@
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -1620,7 +1621,7 @@
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
-  <documents>Document.РегистрацияОшибки</documents>
+  <documents>Document.со_РегистрацияОшибки</documents>
   <documents>Document.СообщениеSMS</documents>
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
