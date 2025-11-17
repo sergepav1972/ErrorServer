@@ -9,5 +9,13 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
   <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+  <content>Catalog.Файлы</content>
+  <content>Constant.ПараметрыХраненияФайловВИБ</content>
+  <content>DataProcessor.РаботаСФайлами</content>
+  <content>Constant.РежимОчисткиФайлов</content>
+  <content>Constant.СпособХраненияФайлов</content>
+  <content>Catalog.ТомаХраненияФайлов</content>
+  <content>CommonCommand.ВсеФайлы</content>
+  <content>DataProcessor.ПереносФайлов</content>
   <subsystems>со_Обслуживание</subsystems>
 </mdclass:Subsystem>
