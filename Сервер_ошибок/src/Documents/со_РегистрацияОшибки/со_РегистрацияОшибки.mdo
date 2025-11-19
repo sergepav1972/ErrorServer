@@ -181,6 +181,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5e3f6bcf-ee39-47d2-8fb9-2ad3ffca8483">
+    <name>ФайлСкриншота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл скриншота</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрисоединенныйФайл</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4ce8ac78-83d5-4bff-8f1d-98d69c0f06f9">
     <name>ФормаДокумента</name>
     <synonym>

@@ -1620,7 +1620,6 @@
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.со_РегистрацияОшибкиПрисоединенныеФайлы</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.со_РегистрацияОшибки</documents>
