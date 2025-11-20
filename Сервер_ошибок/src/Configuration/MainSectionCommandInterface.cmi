@@ -50,6 +50,12 @@
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>CommonCommand.со_РегламентнаяОперация</commands>
+    </placementFragments>
+  </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>ActionsPanelTools</group>

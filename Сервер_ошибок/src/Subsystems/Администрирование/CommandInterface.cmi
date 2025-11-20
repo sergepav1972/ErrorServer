@@ -2,19 +2,11 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Catalog.Пользователи.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.ГруппыДоступа.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.ВнешниеПользователи.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -85,10 +77,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>CommonCommand.ВремяВПриложении</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.НастройкаСтандартногоИнтерфейсаOData.Command.НастройкиСтандартногоИнтерфейсаOData</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>

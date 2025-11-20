@@ -10,6 +10,5 @@
     <picture>CommonPicture.ОбщаяКартинка</picture>
   </picture>
   <content>InformationRegister.со_СообщенияОбОшибках</content>
-  <content>CommonCommand.со_РегламентнаяОперация</content>
   <content>Document.со_РегистрацияОшибки</content>
 </mdclass:Subsystem>

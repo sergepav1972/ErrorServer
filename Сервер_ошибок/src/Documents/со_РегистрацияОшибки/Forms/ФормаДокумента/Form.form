@@ -559,7 +559,7 @@
         <key>ru</key>
         <value>Группа1</value>
       </title>
-      <width>56</width>
+      <width>65</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ЛевоРасширеннаяПодсказка</name>

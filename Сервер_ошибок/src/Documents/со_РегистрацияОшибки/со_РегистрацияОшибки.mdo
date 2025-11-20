@@ -10,7 +10,7 @@
   <name>со_РегистрацияОшибки</name>
   <synonym>
     <key>ru</key>
-    <value>Со регистрация ошибки</value>
+    <value>Зарегистрированные ошибки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.со_РегистрацияОшибки.StandardAttribute.Number</inputByString>
@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.со_РегистрацияОшибки.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.со_РегистрацияОшибки.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="4db27e55-4670-4e16-93dc-c25e0e9a8ba4">
@@ -201,6 +202,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f161621f-b31e-4ef9-ab11-e615c4491456">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
