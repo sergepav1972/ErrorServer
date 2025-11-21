@@ -7,7 +7,7 @@
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ОбщаяКартинка</picture>
+    <picture>CommonPicture.со_ИконкаРаздела</picture>
   </picture>
   <content>InformationRegister.со_СообщенияОбОшибках</content>
   <content>Document.со_РегистрацияОшибки</content>
