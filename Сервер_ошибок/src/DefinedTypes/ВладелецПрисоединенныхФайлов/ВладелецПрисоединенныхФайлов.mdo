@@ -13,6 +13,7 @@
     <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
     <types>DocumentRef.ЗапланированноеВзаимодействие</types>
     <types>CatalogRef.ПапкиФайлов</types>
+    <types>DocumentRef.со_РегистрацияОшибки</types>
     <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
     <types>DocumentRef.ТелефонныйЗвонок</types>
     <types>DocumentRef.Встреча</types>
