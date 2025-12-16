@@ -7,6 +7,7 @@
   </synonym>
   <comment>ДляОтладки</comment>
   <group>NavigationPanelImportant</group>
+  <commandParameterType/>
   <representation>PictureAndText</representation>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ЗакончитьРедактированиеФайла</picture>
